@@ -2,7 +2,9 @@
 <testCase>
   <summary/>
   <steps>
+
     <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="2" title="Set Values: Conflict">
+
       <arguments>
         <argument id="values">
           <value class="valueList" mutable="Mutable">
@@ -11,7 +13,9 @@
                 <value class="value" valueClass="string">Conflict</value>
               </namedValue>
               <namedValue name="value">
-                <value class="value" valueClass="string">BranchB1-Conflict2</value>
+
+                <value class="value" valueClass="string">BranchMaster-Conflict</value>
+
               </namedValue>
               <namedValue name="valueScope">
                 <value class="value" valueClass="string">Test</value>
