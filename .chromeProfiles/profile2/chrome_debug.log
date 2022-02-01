@@ -1,0 +1,33 @@
+[5920:16184:0113/174955.082:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[5920:16184:0113/174955.084:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[5920:16184:0113/174955.136:WARNING:chrome_command_line_pref_store.cc(123)] Additional command-line proxy switches specified when --no-proxy-server was also specified.
+[5920:12236:0113/174959.050:ERROR:chrome_browser_main_extra_parts_metrics.cc(227)] START: ReportBluetoothAvailability(). If you don't see the END: message, this is crbug.com/1216328.
+[5920:16184:0113/174959.056:ERROR:device_event_log_impl.cc(214)] [17:49:59.056] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[5920:12236:0113/174959.058:ERROR:chrome_browser_main_extra_parts_metrics.cc(230)] END: ReportBluetoothAvailability()
+[5920:16184:0113/174959.058:ERROR:device_event_log_impl.cc(214)] [17:49:59.058] USB: usb_device_handle_win.cc:1050 Failed to read descriptor from node connection: A device attached to the system is not functioning. (0x1F)
+[5920:12236:0113/174959.059:ERROR:chrome_browser_main_extra_parts_metrics.cc(235)] START: GetDefaultBrowser(). If you don't see the END: message, this is crbug.com/1216328.
+[5920:12236:0113/174959.127:ERROR:chrome_browser_main_extra_parts_metrics.cc(239)] END: GetDefaultBrowser()
+[5920:16184:0113/175026.502:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[5920:16184:0113/175027.251:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.338:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.541:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.626:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.734:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.834:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175027.897:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175028.128:INFO:CONSOLE(1434)] "[object HTMLButtonElement]", source:  (1434)
+[5920:16184:0113/175112.488:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: false", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1706)
+[5920:16184:0113/175112.489:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1706)
+[5920:16184:0113/175112.490:INFO:CONSOLE(0)] "Error in event handler: TypeError: Cannot set properties of undefined (setting 'retrySocketConnection')
+    at BackgroundScript.checkSocketConnection (chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js:1257:52)
+    at chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js:1074:26", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/_generated_background_page.html (0)
+[5920:16184:0113/175112.493:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1708)
+[5920:16184:0113/175112.493:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: https://provar-trial-org--training.lightning.force.com/lightning/page/home, existingTab: undefined", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1714)
+[5920:16184:0113/175112.493:INFO:CONSOLE(1722)] "INIT    === Created connectionDetails for new tab", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1722)
+[5920:16184:0113/175112.493:INFO:CONSOLE(1726)] "INIT    === Set focused tab.  focusedTabId: 2", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1726)
+[5920:16184:0113/175112.494:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1708)
+[5920:16184:0113/175112.494:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: https://provar-trial-org--training.lightning.force.com/lightning/page/home, existingTab: [object Object]", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1714)
+[5920:16184:0113/175117.503:INFO:CONSOLE(1706)] "INIT    === Start of processExistingTabs.  refresh: true", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1706)
+[5920:16184:0113/175117.505:INFO:CONSOLE(1708)] "INIT    === chrome.tabs.query result.  tabs.length: 1", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1708)
+[5920:16184:0113/175117.505:INFO:CONSOLE(1714)] "INIT    === Got pre-exiting tab.  i:  0, tabId: 2, url: https://provar-trial-org--training.lightning.force.com/lightning/page/home, existingTab: [object Object]", source: chrome-extension://kkajamgkpopgpngiednalmgbfhldgcod/BS.js (1714)
+[5920:16184:0113/175431.482:WARNING:pref_notifier_impl.cc(40)] Pref observer for media_router.cast_allow_all_ips found at shutdown.

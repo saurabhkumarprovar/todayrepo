@@ -1,0 +1,12 @@
+2022/02/01-22:34:50.465 1b48 Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provartesting48-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/01-22:34:50.468 1b48 Recovering log #39
+2022/02/01-22:34:50.500 1b48 Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provartesting48-dev-ed.lightning.force.com_0.indexeddb.leveldb/000039.log 
+2022/02/01-22:35:00.608 3b04 Level-0 table #45: started
+2022/02/01-22:35:00.637 3b04 Level-0 table #45: 2464641 bytes OK
+2022/02/01-22:35:00.640 3b04 Delete type=0 #39
+2022/02/01-22:35:12.109 3b04 Compacting 1@1 + 1@2 files
+2022/02/01-22:35:12.163 3b04 Generated table #46@1: 1060 keys, 1051404 bytes
+2022/02/01-22:35:12.164 3b04 Compacted 1@1 + 1@2 files => 1051404 bytes
+2022/02/01-22:35:12.166 3b04 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/01-22:35:12.167 3b04 Delete type=2 #42
+2022/02/01-22:35:12.167 3b04 Delete type=2 #45

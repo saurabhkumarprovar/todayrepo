@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase id="3">
+  <summary/>
+  <steps>
+    <apiCall apiId="customapis.Substring" name="Substring" testItemId="2" title="Substring: ⇒ resultsave">
+      <arguments>
+        <argument id="param1">
+          <value class="value" valueClass="string">hello</value>
+        </argument>
+        <argument id="param2"/>
+        <argument id="resultName">
+          <value class="value" valueClass="string">resultsave</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+        <argument id="inputStr">
+          <value class="value" valueClass="string">Saurabh</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.SetValues" name="SetValues" testItemId="3" title="Set Values: a">
+      <arguments>
+        <argument id="values">
+          <value class="valueList" mutable="Mutable">
+            <namedValues mutable="Mutable">
+              <namedValue name="valuePath">
+                <value class="value" valueClass="string">a</value>
+              </namedValue>
+              <namedValue name="value">
+                <value class="variable">
+                  <path element="resultsave"/>
+                </value>
+              </namedValue>
+              <namedValue name="valueScope">
+                <value class="value" valueClass="string">Test</value>
+              </namedValue>
+            </namedValues>
+          </value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.If" name="If" testItemId="4" title="If: 10&gt;12">
+      <arguments>
+        <argument id="condition">
+          <value class="value" valueClass="string">10&gt;12</value>
+        </argument>
+      </arguments>
+      <clauses>
+        <clause name="then" testItemId="5"/>
+      </clauses>
+    </apiCall>
+  </steps>
+</testCase>

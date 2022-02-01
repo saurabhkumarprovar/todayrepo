@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Create_API.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:20 (00:00.000)</span></div>Start of Test Case Create_API.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:20 (00:00.006)</span></div>Start of Test Step Set Values: Accountname</div><div class='TestOutput inf'>Setting value Accountname to Saurabh</div><div class='TestOutput off'>Successfully set Accountname to Saurabh</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:20 (00:00.015)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:20 (00:00.015)</span></div>Start of Test Step Salesforce Connect: SF_Training (Test)</div><div class='TestOutput inf'>Connecting to Salesforce as SF_Training</div><div class='TestOutput inf'>Getting the User's information: Getting Salesforce user information ... 0%</div><div class='TestOutput off'>Getting the User's information: Getting Salesforce user information ... 100%</div><div class='TestOutput off'>Getting the User's information ... 100%</div><div class='TestOutput off'>Getting the User's information ... done</div><div class='TestOutput off'>Successfully connected to Salesforce as SF_Training</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:28 (00:07.343)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:28 (00:07.343)</span></div>Start of Test Step Create Object: Account=&gt;AccountId</div><div class='TestOutput inf'>Creating a new Salesforce object.  Connection Name: SF_Training, Name: Account, field count: 4</div><div class='TestOutput inf'>Setting fields:</div><div class='TestOutput inf'>=Field=&gt; Type = Prospect</div><div class='TestOutput inf'>=Field=&gt; Phone = 7656575757</div><div class='TestOutput inf'>=Field=&gt; Website = &lt;null&gt;</div><div class='TestOutput inf'>=Field=&gt; Name = Saurabh</div><div class='TestOutput sum'>Account created successfully.  Object Id: &amp;a href='sf:object?object=Account&id=0011X00000wc8iiQAA&connection=SF_Training'&gt;0011X00000wc8iiQAA&amp;/a&gt;, Result Name: AccountId</div><div class='TestOutput inf'>Logging Salesforce Object Id for clean up.  Object Name: Account, id: 0011X00000wc8iiQAA</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:31 (00:11.001)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:31 (00:11.001)</span></div>Start of Test Step Read Object: Account = 0011X00000wc8iiQAA</div><div class='TestOutput inf'>Reading a Salesforce object.  Connection Name: SF_Training, Name: Account, Id: 0011X00000wc8iiQAA, field count: 2</div><div class='TestOutput inf'>Object read successfully.  Result Name: AccountRead</div><div class='TestOutput inf'>{ASSERTION_OK}Result assertion 'Check Id' successful: '0011X00000wc8iiQAA' = '0011X00000wc8iiQAA'</div><div class='TestOutput inf'>{ASSERTION_OK}Result assertion 'Check IsDeleted' successful: false = false</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:33 (00:12.736)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:33 (00:12.736)</span></div>Start of Test Step Update Object: Account = 0011X00000wc8iiQAA</div><div class='TestOutput inf'>Updating an existing Salesforce object.  Connection Name: SF_Training, Name: Account, Id: 0011X00000wc8iiQAA, field count: 2</div><div class='TestOutput inf'>Setting fields:</div><div class='TestOutput inf'>=Field=&gt; Type = Customer</div><div class='TestOutput inf'>=Field=&gt; Name = newaccount</div><div class='TestOutput sum'>Account updated successfully.  Object Id: &amp;a href='sf:object?object=Account&id=0011X00000wc8iiQAA&connection=SF_Training'&gt;0011X00000wc8iiQAA&amp;/a&gt;</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:34 (00:13.899)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:34 (00:13.899)</span></div>Start of Test Step SOQL Query: select Id from Opportunity WHERE Name = 'Saurabh'=&gt;OpportunityRows</div><div class='TestOutput inf'>Reading a Salesforce object.  Connection Name: SF_Training, Query: select Id from Opportunity WHERE Name = 'Saurabh'</div><div class='TestOutput inf'>The query returned no records.</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:35 (00:15.124)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:35 (00:15.124)</span></div>Start of Test Step Delete Object: OpportunityRows</div><div class='TestOutput inf'>Deleting an existing Salesforce object.  Connection Name: SF_Training, Id: OpportunityRows</div><div class='TestOutput sev'>Failed to delete Object.  Error Messages: bad id OpportunityRows</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:36 (00:15.582)</span></div>Test Step failed.</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:12:36 (00:15.585)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: SF_Training</div><div class='TestOutput off'>Salesforce Connection handled successfully.  Name: SF_Training</div>
+	</div></body>
+</html>

@@ -8,6 +8,141 @@
   <sourcePath>src</sourcePath>
   <secureStoragePath>.secrets</secureStoragePath>
   <browserDebugPort>0</browserDebugPort>
+  <environments>
+    <environment name="Dev">
+      <summary/>
+    </environment>
+    <environment name="QA">
+      <summary/>
+    </environment>
+    <environment name="UAT">
+      <summary/>
+    </environment>
+  </environments>
+  <variables>
+    <testVariable name="Animal">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary/>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">Dog</value>
+        </testVariableValue>
+        <testVariableValue envName="Dev">
+          <valueType class="textType">
+            <constraints>
+              <valueConstraint name="minLength">0</valueConstraint>
+              <valueConstraint name="maxLength">9999</valueConstraint>
+              <valueConstraint name="regex"/>
+            </constraints>
+          </valueType>
+          <value class="value" valueClass="string">Camel</value>
+        </testVariableValue>
+        <testVariableValue envName="QA">
+          <valueType class="textType">
+            <constraints>
+              <valueConstraint name="minLength">0</valueConstraint>
+              <valueConstraint name="maxLength">9999</valueConstraint>
+              <valueConstraint name="regex"/>
+            </constraints>
+          </valueType>
+          <value class="value" valueClass="string">Cat</value>
+        </testVariableValue>
+        <testVariableValue envName="UAT">
+          <valueType class="textType">
+            <constraints>
+              <valueConstraint name="minLength">0</valueConstraint>
+              <valueConstraint name="maxLength">9999</valueConstraint>
+              <valueConstraint name="regex"/>
+            </constraints>
+          </valueType>
+          <value class="value" valueClass="string">Penguin</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+    <testVariable name="_chromeOptions">
+      <valueType class="textType">
+        <constraints>
+          <valueConstraint name="minLength">0</valueConstraint>
+          <valueConstraint name="maxLength">9999</valueConstraint>
+          <valueConstraint name="regex"/>
+        </constraints>
+      </valueType>
+      <summary/>
+      <values>
+        <testVariableValue>
+          <value class="value" valueClass="string">--headless</value>
+        </testVariableValue>
+      </values>
+    </testVariable>
+  </variables>
+  <connectionClasses>
+    <connectionClass name="sf">
+      <connections>
+        <connection id="e81a47a6-e622-4bf4-b60d-9b385a1646c4" name="SF_Training">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="0c8dd179-644a-4151-86f5-a1e1e36ec72f" url="sf:user=internaltraining@provartesting.com.training;password={password};environment=SANDBOX;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+        <connection id="29a28959-f3b7-40b6-b252-cbc6a7659baf" name="OAuthConnection">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="7a02ffbe-2f1a-413c-8410-97d8eea79a6a" url="sf:environment=PROD_DEV;apiLoginUrl=https://provartesting48-dev-ed.my.salesforce.com;identityServiceUrl=https://login.salesforce.com/id/00D5g00000A4DW6EAN/0055g00000BRVXcAAP;clientId={clientId};clientSecret={clientSecret};lightningMode=true;authenticationType=OAUTH;callbackUrl={callbackUrl};accessToken={accessToken}"/>
+          </connectionUrls>
+        </connection>
+        <connection id="e1cef172-5bd4-445f-b58a-9a2ca4ad9307" name="Sales_Personal">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="76aa6bb2-057a-46a6-b30e-066b34a45c0b" url="sf:user=saurabh.kumar@provartesting.com;password={password};securityToken={securityToken};environment=PROD_DEV;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+        <connection id="75db1596-7f2e-463d-b2d5-7ccf2178540a" name="Sales_Personal_User">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="sf:user=prabh@provartesting.com;environment=PROD_DEV;logonAsConnection=Sales_Personal;lightningMode=true"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+    <connectionClass name="ui">
+      <connections>
+        <connection id="ba2f5f2f-e66b-496e-aea7-e912d6c3d3c6" name="Amazon_connection">
+          <summary>Connecting amazon site</summary>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=http://www.amazon.in"/>
+          </connectionUrls>
+        </connection>
+        <connection id="36361078-9f7f-49fe-8ad7-5b949f9ba610" name="tooltipconnection">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=https://timesofindia.indiatimes.com/"/>
+          </connectionUrls>
+        </connection>
+        <connection name="bhavani_conn">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="742b6456-fd72-46e0-85e5-bebf4289e02e" url="se:baseUrl=https://qaoxp.volvocars.com/it/test-drive-booking/"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+    <connectionClass name="google">
+      <connections>
+        <connection id="99f5363d-74a8-4150-95f4-8e08b31e0270" name="GoogleMail">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl secureStorageNodeId="fd0077d2-b4a3-4e4c-ba2d-8aa135cc3b7c" url="google:user=saurabh.kumar@provartesting.com;password={password};authenticationType=PASSWORD"/>
+          </connectionUrls>
+        </connection>
+      </connections>
+    </connectionClass>
+  </connectionClasses>
   <browserConfigurations>
     <browserConfiguration adjustBrowserWidthForChromeIde="true" browserHeight="0" browserWidth="0" name="Full Screen">
       <summary>Full screen with Test Builder adjustment</summary>

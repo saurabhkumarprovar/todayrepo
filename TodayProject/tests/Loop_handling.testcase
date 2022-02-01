@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testCase id="9">
+  <summary/>
+  <steps>
+    <apiCall apiId="com.provar.plugins.bundled.apis.string.Split" name="Split" testItemId="25" title="Split: 1,2,3,4=&gt;,=&gt;Tokens">
+      <arguments>
+        <argument id="input">
+          <value class="value" valueClass="string">1,2,3,4</value>
+        </argument>
+        <argument id="separator">
+          <value class="value" valueClass="string">,</value>
+        </argument>
+        <argument id="resultName">
+          <value class="value" valueClass="string">Tokens</value>
+        </argument>
+        <argument id="resultScope">
+          <value class="value" valueClass="string">Test</value>
+        </argument>
+      </arguments>
+    </apiCall>
+    <apiCall apiId="com.provar.plugins.bundled.apis.control.ForEach" name="ForEach" testItemId="26" title="For Each: {Values}=&gt;Row">
+      <arguments>
+        <argument id="list">
+          <value class="variable">
+            <path element="Values"/>
+          </value>
+        </argument>
+        <argument id="fromItem">
+          <value class="value" valueClass="decimal">1</value>
+        </argument>
+        <argument id="valueName">
+          <value class="value" valueClass="string">Row</value>
+        </argument>
+        <argument id="continueOnFailure"/>
+      </arguments>
+      <clauses>
+        <clause name="substeps" testItemId="27">
+          <steps/>
+        </clause>
+      </clauses>
+    </apiCall>
+  </steps>
+</testCase>

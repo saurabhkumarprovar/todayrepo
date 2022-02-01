@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> SampleTest.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:05 (00:00.000)</span></div>Start of Test Case SampleTest.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:05 (00:00.004)</span></div>Start of Test Step Salesforce Connect: SF_Training (Test)</div><div class='TestOutput inf'>Connecting to Salesforce as SF_Training</div><div class='TestOutput off'>Successfully connected to Salesforce as SF_Training</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:11 (00:06.005)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:11 (00:06.005)</span></div>Start of Test Step On SF Account Home screen</div><div class='TestOutput inf'>Start of With Screen.  Connection Name: SF_Training, target: sf:ui:target?object=Account&action=ObjectHome</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://test.salesforce.com/</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://test.salesforce.com/</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Opening Salesforce page.  Object: Account, RelatedList: null, Action: ObjectHome, Page URL: /lightning/o/001/list?filterName=Recent, Current URL: about:blank</div><div class='TestOutput inf'>Opening Salesforce user home page</div><div class='TestOutput off'>Successfully opened user home page</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:45 (00:39.629)</span></div>Start of Test Step With Account rows {ACCOUNT_NAME = "Test Account"}</div><div style='float: right;' ><a target='_blank' href='../../Artifacts/ScreenShot6'><img style='width: 150px; border: solid 2px grey;' src='../../Artifacts/ScreenShot6'></img></a></div><div class='TestOutput inf'>Start of With Row.  Connection Name: SF_Training, target: sf:ui:locator:row?table=ObjectHome%2Frecent%2FrecentTable</div><div class='TestOutput inf'>Find element using xpath: //div[contains(@class, 'active') and (contains(@class, 'oneContent') or contains(@class, 'main-content'))]//div[contains(@class, 'listViewContent') or contains(@class, 'listViewContainer')]//tbody//tr</div><div class='TestOutput inf'>Waiting for element to be present.  Timeout(seconds): 10</div><div class='TestOutput inf'>Populating webelement cells into the row  Row Count: 10</div><div class='TestOutput off'>Populated the row elements.</div><div class='TestOutput inf'>Applying row locator to rows.  Row Count: 10, Row Locator: {ACCOUNT_NAME = "Test Account"}</div><div class='TestOutput sev'>The row locator did not match any rows.</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:54 (00:48.912)</span></div>Test Step failed.</div></div><div class='TestOutput sev'>One or more Sub-Test Steps failed.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provar-trial-org--training.lightning.force.com/lightning/o/Account/list?filterName=Recent</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:57 (00:51.137)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Account View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Contact Record Type selection screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Contact (Employee) New screen SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>18:05:57 (00:51.143)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: SF_Training</div><div class='TestOutput off'>Salesforce Connection handled successfully.  Name: SF_Training</div>
+	</div></body>
+</html>

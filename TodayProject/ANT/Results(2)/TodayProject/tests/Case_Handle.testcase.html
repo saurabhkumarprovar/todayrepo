@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<style>
+
+			body {
+				font-family: sans-serif;
+			}
+
+			.TestCaseImplTitle {
+				color: blue;
+				font: 0.85em arial;
+				font-weight: bold;
+			}
+
+			.TestCaseImpl .TestItemTitle {
+				color: blue;
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+				margin-bottom: 0.5em;
+			}
+
+			.TestCaseImpl .TestItemOutcome {
+				border-top: 2px solid blue;
+				border-bottom: 2px solid blue;
+			}
+
+			.ApiCallImpl .TestItemTitle{
+				color: blue;
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+				margin-bottom: 0.25em;
+			}
+
+			.ApiCallImpl .TestItemOutcome {
+				border-top: 1px solid blue;
+				border-bottom: 1px solid blue;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				margin-top: 0.25em;
+			}
+
+			.TestItemOutcome {
+				padding-left: 20px;
+				padding-top: 0.1em;
+				padding-bottom: 0.1em;
+				clear: both;
+			}
+			
+			.TestItemOutcome.Successful {
+				color: green;
+				background: url('../../successful_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestItemOutcome.Failed {
+				color: red;
+				background: url('../../failed_16x16.gif') no-repeat 0 0.15em;
+				font-weight: bold;
+			}
+
+			.TestItemOutcome.Skipped {
+				color: orange;
+				background: url('../../skipped_16x16.gif') no-repeat 0 0.15em;
+			}
+
+			.TestOutput {
+				font: 0.9em arial;
+				color: black;
+				margin-top: 0.15em;
+				margin-bottom: 0.15em;
+			}
+
+			.TestOutput.err {
+				font-weight: bold;
+				color: red;
+			}
+
+			.TestOutput.war {
+				font-weight: bold;
+				color: orange;
+			}
+
+			.ApiCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+
+			.TestCaseCallImpl{
+				margin-left: 1em;
+				margin-bottom: 0.4em;
+			}
+			
+		</style>
+	</head>
+	<body><div id='detail-body'>
+	<div style='float: right;'><img src='../..//provar_logo_400x100.png' height='50'/></div>
+<h2><img src='../..//testcase_16x16.png' style='height: 24; padding-top: 4px;'/> Case_Handle.testcase</h2>
+<div class='TestCaseImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:30:09 (00:00.000)</span></div>Start of Test Case Case_Handle.testcase</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:30:09 (00:00.003)</span></div>Start of Test Step Salesforce Connect: SF_Training (Test)</div><div class='TestOutput inf'>Connecting to Salesforce as Sales_Personal</div><div class='TestOutput off'>Successfully connected to Salesforce as Sales_Personal</div><div class='TestItemOutcome Successful'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:30:14 (00:05.542)</span></div>Test Step successful.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:30:14 (00:05.542)</span></div>Start of Test Step On SF Opportunity Home screen</div><div style='float: right;' ><a target='_blank' href='../../Artifacts/ScreenShot1'><img style='width: 150px; border: solid 2px grey;' src='../../Artifacts/ScreenShot1'></img></a></div><div class='TestOutput inf'>Start of With Screen.  Connection Name: SF_Training, target: sf:ui:target?object=Opportunity&action=ObjectHome</div><div class='TestOutput war'>Failed to connect to Master Lock Manager in timeout period - assuming dead.  Host: localhost, port: 51029</div><div class='TestOutput inf'>Loading Connection model: Loading Salesforce model index from disk ... 100%</div><div class='TestOutput off'>Loading Connection model: Loading Salesforce model index from disk ... 100%</div><div class='TestOutput off'>Loading Connection model ... 100%</div><div class='TestOutput off'>Loading Connection model ... 100%</div><div class='TestOutput off'>Loading Connection model: Loading the Sales Console application from disk ... 100%</div><div class='TestOutput off'>Loading Connection model: Loading the Sales Console application from disk ... 100%</div><div class='TestOutput off'>Loading Connection model ... 100%</div><div class='TestOutput off'>Loading Connection model ... 100%</div><div class='TestOutput off'>Loading Connection model ... done</div><div class='TestOutput inf'>Opening Chrome webdriver instance to https://login.salesforce.com/</div><div class='TestOutput off'>Successfully opened Chrome webdriver to https://login.salesforce.com/</div><div class='TestOutput inf'>Opening Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Opening Salesforce user home page</div><div class='TestOutput sev'>Error doing app navigation in lightning.</div><div class='TestOutput sev'>[TimeoutException: Expected condition failed: waiting for com.provar.core.testapi.ElementWait$1@39c802c5 (tried for 60 second(s) with 2000 MILLISECONDS interval)&lt;br/&gt;Build info: version: 'unknown', revision: 'unknown', time: 'unknown'&lt;br/&gt;System info: host: 'IBM-SAURABHKUMA', ip: '192.168.200.15', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_221'&lt;br/&gt;Driver info: org.openqa.selenium.chrome.ChromeDriver&lt;br/&gt;Capabilities [{mobileEmulationEnabled=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, hasTouchScreen=false, platform=XP, acceptSslCerts=false, goog:chromeOptions={debuggerAddress=localhost:52869}, webauthn:extension:credBlob=true, acceptInsecureCerts=false, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, setWindowRect=true, webauthn:extension:largeBlob=true, unexpectedAlertBehaviour=ignore, applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, chrome={chromedriverVersion=97.0.4692.71 (adefa7837d02a07a604c1e6eff0b3a09422ab88d-refs/branch-heads/4692@{#1247}), userDataDir=C:\Users\saurabh.kumar\Provar\pracwork\.provarCaches\.chromeProfiles\profile0}, takesHeapSnapshot=true, pageLoadStrategy=normal, strictFileInteractability=false, databaseEnabled=false, handlesAlerts=true, version=97.0.4692.99, browserConnectionEnabled=false, proxy=Proxy(direct), nativeEvents=true, locationContextEnabled=true, cssSelectorsEnabled=true, webauthn:virtualAuthenticators=true}]&lt;br/&gt;Session ID: cbb54f7352002156fb56ec7177252525]</div><div class='TestOutput sev'>Error when attempting to open user home page</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provartesting48-dev-ed.my.salesforce.com/_ui/identity/verification/method/EmailVerificationFinishUi/e?vcsrf=Us9Rc-BKCBO7KND2eI3FwcTj2kb3QSFSUXLiJ6OqR7TwkgNfkaxEdjz4KVBF-4o9ahaRsVWWG96v834ZR0Ztv3uUmdaxKk59k6saY-L5Rs9tvTBiqldjLoZmo3CgO31tO_14_b-LSFGKU-LEkGFREMjr6pmRbZAUZgPgc1WS8Wfe1cQjrVgQsAsahz6yWkXaB0-eVTZBXyAS-g0iph9NKEJnAM9PlComKz9g0UzL5Q5_WKiAV15cWqTrXmOmWvEw19gGfQbhXI_KPxA8xXP02q8IkyS8hFsX1CaHTn16Qc9bb3XDAkdoUEhBNnRAiJJSRvB6yGAaKI8uqMQE4AJVX5-KMzPFZ9eTFglM4N06fxCPCRO4HTh8-zf_OkVrhuwxD-phKIGK6UUoordtFmezH-W2dqCgrBJBt5gVwEDSib6G7LzrN56Z3zw24y6GsOqFp2dQhpQLKeIT9bYSCl2m46Vy7EuvAu5ZiKL4wDQNImbHo3fbgmx3q_fGHX5rkAMKgev17LEAc3DTvKk3y8rJcTsEFW6s4uOJuZEB_8Sd4HShns7flejcdJcxokZ2FsQjolsdXtVooX1pIfEL04pWb-IpNb_puuaYWqeysq5uOlbNz1XRgppgsWf_tsXteODqy9OaVf9Z0KOsqcPAcfc__rgDAFelNUPd0a4Q-3WYQQQ%3D&vpol=ic&vflid=0&vfgrp=1337457617&retURL=%2Fsecur%2Ffrontdoor.jsp%3Fallp%3D1%26retURL%3D%252Flightning%252Fapp%252F06m5g000003aSKtAAM%26cshc%3Dg00000BRVXcg00000A4DW6%26apv%3D1%26ucs%3D1</div><div class='TestOutput inf'>Opening Salesforce Console Page.</div><div class='TestOutput inf'>Opening Salesforce user home page</div><div class='TestOutput off'>Successfully opened user home page</div><div class='TestOutput sev'>Error opening Salesforce UI Connection.  Connection Name: Sales_Personal, cause: [IndexOutOfBoundsException: Index: 0, Size: 0]</div><div class='TestOutput inf'>Sending screenshot.  Data length: 18105</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='ApiCallImpl'><div class='TestItemTitle'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:31:47 (01:37.580)</span></div>Start of Test Step With Opportunity rows {OPPORTUNITY_NAME = "Burlington Textiles Weaving Plant Generator"}</div><div style='float: right;' ><a target='_blank' href='../../Artifacts/ScreenShot2'><img style='width: 150px; border: solid 2px grey;' src='../../Artifacts/ScreenShot2'></img></a></div><div class='TestOutput inf'>Start of With Row.  Connection Name: SF_Training, target: sf:ui:locator:row?table=ObjectHome%2Frecent%2FrecentTable</div><div class='TestOutput inf'>Find element using xpath: //div[contains(@class, 'active') and (contains(@class, 'oneContent') or contains(@class, 'main-content'))]//div[contains(@class, 'listViewContent') or contains(@class, 'listViewContainer')]//tbody//tr</div><div class='TestOutput inf'>Waiting for element to be present.  Timeout(seconds): 10</div><div class='TestOutput inf'>Resolved table xpath: //table[contains(@class,'list')]/tbody/tr[contains(@class,'dataRow')]</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provartesting48-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fone%2Fone.app</div><div class='TestOutput sev'>No rows found in table</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:32:02 (01:53.085)</span></div>Test Step failed.</div></div><div class='TestOutput sev'>One or more Sub-Test Steps failed.</div><div class='TestOutput inf'>Closing Page context.  Name: screen, data: null, frame: null</div><div class='TestOutput inf'>Main window reselected.  Window: main</div><div class='TestOutput inf'>Switched focus to main window.  URL: https://provartesting48-dev-ed.my.salesforce.com/?ec=302&startURL=%2Fone%2Fone.app</div><div class='TestOutput inf'>Going to update browser window handles.</div><div class='TestOutput off'>Successfully updated browser window handles.</div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:32:06 (01:56.601)</span></div>Test Step failed.</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Opportunity View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Account View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Contact View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Account View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Account View screen SKIPPED</div></div><div class='ApiCallImpl'><div class='TestItemTitle'>Test Step On SF Contact New screen SKIPPED</div></div><div class='TestItemOutcome Failed'><div style='float: right; font-size: 0.8em;'><img src='../..//timer_16x16.gif' style='height: 16; padding-top: 2px;'/><span style='padding-bottom: 2px;'>22:32:06 (01:56.609)</span></div>Test Case failed.</div></div><div class='TestOutput inf'>Handling managed resource.  Name: SF_Training</div><div class='TestOutput off'>Salesforce Connection handled successfully.  Name: SF_Training</div>
+	</div></body>
+</html>
