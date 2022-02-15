@@ -1,0 +1,6 @@
+2022/02/08-18:35:13.848 510c Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provartesting48-dev-ed.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/08-18:35:13.849 510c Recovering log #4
+2022/02/08-18:35:13.855 510c Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provartesting48-dev-ed.lightning.force.com_0.indexeddb.leveldb/000004.log 
+2022/02/08-18:35:31.746 1918 Level-0 table #8: started
+2022/02/08-18:35:31.785 1918 Level-0 table #8: 2149586 bytes OK
+2022/02/08-18:35:31.789 1918 Delete type=0 #4

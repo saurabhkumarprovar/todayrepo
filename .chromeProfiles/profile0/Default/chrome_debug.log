@@ -1,14 +1,4 @@
-[0117/182718.500:INFO:CONSOLE(37)] "[object Object]", source: https://provartesting48-dev-ed.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
-[0117/182723.253:INFO:CONSOLE(1)] "<forceChatter:fileIcon> is deprecated.", source: https://provartesting48-dev-ed.lightning.force.com/components/forceChatter/fileIcon.js (1)
-[0117/182724.270:INFO:CONSOLE(37)] "[object Object]", source: https://provartesting48-dev-ed.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
-[0117/182731.287:ERROR:web_contents_delegate.cc(227)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
-[0117/182731.289:ERROR:web_contents_delegate.cc(227)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
-[0117/182731.740:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182731.812:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182731.880:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182731.956:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182732.024:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182732.113:INFO:CONSOLE(1434)] "[object HTMLAnchorElement]", source:  (1434)
-[0117/182732.137:INFO:CONSOLE(1434)] "[object HTMLSpanElement]", source:  (1434)
-[0117/182741.420:INFO:CONSOLE(37)] "[object Object]", source: https://provartesting48-dev-ed.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
-[0117/182751.182:INFO:CONSOLE(37)] "[object Object]", source: https://provartesting48-dev-ed.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[0205/235748.090:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)
+[0205/235753.880:ERROR:web_contents_delegate.cc(227)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+[0205/235753.881:ERROR:web_contents_delegate.cc(227)] WebContentsDelegate::CheckMediaAccessPermission: Not supported.
+[0205/235755.566:INFO:CONSOLE(37)] "[object Object]", source: https://provar-trial-org--training.lightning.force.com/libraries/instrumentation/beaconLib.BeaconLibrary.js (37)

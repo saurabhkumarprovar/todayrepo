@@ -2,6 +2,8 @@ package pageobjects;
 
 import java.util.List;
 
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 
@@ -176,6 +178,26 @@ public class MyPageObject {
 	@TextType()
 	@FindBy(xpath = "//input[@id='twotabsearchtextbox']")
 	public WebElement newfield;
+	@TextType()
+	@FindBy(xpath = "//img[@id='angular']")
+	public WebElement dragobject;
+	@TextType()
+	@FindBy(xpath = "//div[@id='droparea']")
+	public WebElement dropobject;
 	
+	public WebDriver driver;
+	public MyPageObject(WebDriver driver)
+{
+this.driver=driver;
+}
+	
+
+public boolean checkradio()
+{
+return driver.findElement(By.xpath("//*[contains(text(),'Employee')]")).isSelected();
+}
 			
 }
+	
+			
+

@@ -1,9 +1,12 @@
-2022/01/25-14:05:53.137 31cc Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/01/25-14:05:53.137 31cc Recovering log #72
-2022/01/25-14:05:53.141 31cc Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000072.log 
-2022/01/25-14:05:56.495 6fc Compacting 1@1 + 1@2 files
-2022/01/25-14:05:56.539 6fc Generated table #75@1: 1207 keys, 966070 bytes
-2022/01/25-14:05:56.539 6fc Compacted 1@1 + 1@2 files => 966070 bytes
-2022/01/25-14:05:56.541 6fc compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/01/25-14:05:56.542 6fc Delete type=2 #70
-2022/01/25-14:05:56.543 6fc Delete type=2 #73
+2022/02/06-00:20:52.239 5b4 Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/06-00:20:52.240 5b4 Recovering log #161
+2022/02/06-00:20:52.262 5b4 Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile0\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000161.log 
+2022/02/06-00:20:58.909 4504 Level-0 table #166: started
+2022/02/06-00:20:58.936 4504 Level-0 table #166: 2287735 bytes OK
+2022/02/06-00:20:58.939 4504 Delete type=0 #161
+2022/02/06-00:21:13.075 4504 Compacting 1@1 + 1@2 files
+2022/02/06-00:21:13.139 4504 Generated table #167@1: 1733 keys, 1522422 bytes
+2022/02/06-00:21:13.139 4504 Compacted 1@1 + 1@2 files => 1522422 bytes
+2022/02/06-00:21:13.141 4504 compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/06-00:21:13.142 4504 Delete type=2 #163
+2022/02/06-00:21:13.142 4504 Delete type=2 #166

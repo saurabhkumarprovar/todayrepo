@@ -1,12 +1,12 @@
-2022/01/13-17:50:10.025 3e90 Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
-2022/01/13-17:50:10.026 3e90 Recovering log #15
-2022/01/13-17:50:10.043 3e90 Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000015.log 
-2022/01/13-17:50:11.543 ba8 Level-0 table #21: started
-2022/01/13-17:50:11.594 ba8 Level-0 table #21: 2399616 bytes OK
-2022/01/13-17:50:11.597 ba8 Delete type=0 #15
-2022/01/13-17:50:16.783 3c4c Compacting 1@1 + 1@2 files
-2022/01/13-17:50:16.818 3c4c Generated table #22@1: 681 keys, 643019 bytes
-2022/01/13-17:50:16.819 3c4c Compacted 1@1 + 1@2 files => 643019 bytes
-2022/01/13-17:50:16.821 3c4c compacted to: files[ 0 0 1 0 0 0 0 ]
-2022/01/13-17:50:16.822 3c4c Delete type=2 #18
-2022/01/13-17:50:16.822 3c4c Delete type=2 #21
+2022/02/05-23:37:13.503 319c Reusing MANIFEST C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/MANIFEST-000001
+2022/02/05-23:37:13.506 319c Recovering log #41
+2022/02/05-23:37:13.524 319c Reusing old log C:\Users\saurabh.kumar\Provar\pracwork\.chromeProfiles\profile1\Default\IndexedDB\https_provar-trial-org--training.lightning.force.com_0.indexeddb.leveldb/000041.log 
+2022/02/05-23:37:22.110 319c Level-0 table #47: started
+2022/02/05-23:37:22.128 319c Level-0 table #47: 2165271 bytes OK
+2022/02/05-23:37:22.130 319c Delete type=0 #41
+2022/02/05-23:37:28.635 cbc Compacting 1@1 + 1@2 files
+2022/02/05-23:37:28.724 cbc Generated table #48@1: 1642 keys, 2324641 bytes
+2022/02/05-23:37:28.725 cbc Compacted 1@1 + 1@2 files => 2324641 bytes
+2022/02/05-23:37:28.726 cbc compacted to: files[ 0 0 1 0 0 0 0 ]
+2022/02/05-23:37:28.727 cbc Delete type=2 #44
+2022/02/05-23:37:28.727 cbc Delete type=2 #47

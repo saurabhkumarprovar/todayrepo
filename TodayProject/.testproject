@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testProject selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop">
+<testProject selectedBrowserProviderDeviceName="Full Screen" selectedBrowserProviderName="Desktop" selectedEnvironment="Dev">
   <title>/TodayProject/.testproject</title>
   <configPath>config</configPath>
   <testsPath>tests</testsPath>
@@ -128,6 +128,12 @@
           <summary/>
           <connectionUrls>
             <connectionUrl secureStorageNodeId="742b6456-fd72-46e0-85e5-bebf4289e02e" url="se:baseUrl=https://qaoxp.volvocars.com/it/test-drive-booking/"/>
+          </connectionUrls>
+        </connection>
+        <connection id="9e6093b3-05a7-44f1-ba8c-a7e0e5290377" name="draganddrop">
+          <summary/>
+          <connectionUrls>
+            <connectionUrl url="se:baseUrl=http://demo.automationtesting.in/Static.html"/>
           </connectionUrls>
         </connection>
       </connections>
